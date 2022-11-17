@@ -1,4 +1,4 @@
-header{
+h1{
     font-family: 'Lato', sans-serif;
     font-size: 30px;
     justify-content: center;
@@ -8,6 +8,24 @@ header{
    
   
 }
+
+#int{
+    margin-right: 10px;
+    color: #333333;
+}
+
+#seta{
+    margin-right: 20px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+
+.corpo{
+    margin: auto;
+    margin-top: 8%;
+}
+
 
 .layout{
     justify-content: center;
@@ -45,6 +63,7 @@ header{
 }
 
 
+
 .inputs input{
     outline: none;
     font-family: 'Lato', sans-serif;
@@ -59,16 +78,30 @@ header{
   border: none;
   border-bottom: 2px solid rgb(255, 255, 255);
   background: transparent;
+  color: antiquewhite;
   
+}
+
+input::placeholder{
+    color: white;
+    margin-bottom: 20px;
+    text-align: left;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+
+.inputs i{
+    margin-right: 10px;
 }
 
 i{
     color: white;
-    margin-right: 20px;
 }
 
 .header{
- margin-top: 15px;
+ margin-top: 20px;
  margin-bottom: 40px;
  margin-left: 20px;
  font-size: 25px;
@@ -76,7 +109,7 @@ i{
 
 
 body{
-    background-color: #a1c6f0;
+    background-color:  #6146f1;
 }
 
 button{
@@ -85,7 +118,7 @@ button{
     color: white;
     margin: auto;
     display: flex;
-    background-color: cornflowerblue;
+    background-color: rgb(108, 124, 177);
     font-family: 'Lato', sans-serif;
     border-style: none;
     padding-top: 10px;
@@ -94,6 +127,38 @@ button{
     text-align: center;
     padding-right: 75px;
     padding-left: 75px;
+}
+
+#help{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: inline;
+    margin: 0;
+}
+
+
+
+
+
+
+#ajuda{
+    position: relative;
+    font-size: 14px;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    color: #333333;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: right;
+    margin-right: 20px;
+    cursor: pointer;
+    padding-bottom: 7px;
+    padding-top: 7px;
 }
 
 img{
