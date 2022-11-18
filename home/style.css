@@ -20,16 +20,15 @@ header{
 
 i{
     margin-right: 10px;
+
 }
 
 
 
 .container{
     display: flex;
-    margin-right: 30px;
     font-size: 18px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    height: 20px;
     padding-right: 25px;
     padding-left: 25px;
     justify-content: space-between;
@@ -42,6 +41,41 @@ i{
     margin-right: 35%;
 }
 
+
+.container2 img{
+    justify-content: space-between;
+    text-align: center;
+}
+
+.container3{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 10px;
+}
+
+.container3 p{
+    font-size: 13px;
+    font-weight: 900;
+    text-align: right;
+}
+
+#holder-menu{
+    display: flex;
+    align-items: center;
+}
+
+
+#holder-menu img{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    border: 2px solid white;
+    margin-left: 10px;
+}
 
 
 .container:hover{
@@ -58,6 +92,27 @@ i{
     display: block;
     flex-direction: column;
 }
+
+.atividade-holder2{
+    display: flex;
+}
+
+.dia{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.dia2{
+    font-size: 25px;
+    text-align: center;
+}
+.dia3{
+    font-size: 18px;
+    text-align: center;
+}
+
 
 
 .atividade{
@@ -143,7 +198,6 @@ i{
     
     
     .container{
-        margin-right: 30px;
         font-size: 18px;
         padding-top: 30px;
         padding-bottom: 30px;
@@ -200,7 +254,7 @@ i{
         padding: 15px;
         margin-bottom: 50px;
         border-radius: 5px;
-        width: 630px;
+        width: 620px;
     }
     
     .atividade p{
