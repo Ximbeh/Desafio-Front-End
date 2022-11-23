@@ -8,10 +8,14 @@
     font-weight: bolder;
 }
 
+
+
+
+
 header{
     display: flex;
-    position: sticky;
-    background-color: #a1c6f0;
+    position: fixed;
+    background-color: mediumslateblue;
     justify-content: center;
     width: 100%;
     color: aliceblue;
@@ -33,6 +37,8 @@ i{
     padding-left: 25px;
     justify-content: space-between;
     text-align: justify;
+    padding-top: 35px;
+    padding-bottom: 35px;
 }
 
 
@@ -78,9 +84,19 @@ i{
 }
 
 
+.container:active{
+    background-color: rgba(187, 176, 250, 0.658);
+    cursor: pointer;
+    border-bottom: 7px white solid;
+}
+
+.container::after{
+    border-bottom: 7px white solid;
+}
+
+
+
 .container:hover{
-    transition: 0.5s;
-    background-color: rgba(124, 104, 238, 0.658);
     cursor: pointer;
 }
 
@@ -118,11 +134,12 @@ i{
 .atividade{
     display: flexbox;
     flex-direction: row;
-    border: 1px solid black;
+    border: solid 1px rgb(201, 201, 201);
     padding: 15px;
     margin-bottom: 50px;
     border-radius: 5px;
-    width: 650px;
+    width: 590px;
+
 }
 
 .atividade p{
@@ -133,7 +150,7 @@ i{
     display: flexbox;
     margin-top: 200px;
     float: right;
-    border: solid 1px black;
+    border: solid 1px rgb(201, 201, 201);
     padding: 80px;
     margin-right: 15%;
     height: 150px;
